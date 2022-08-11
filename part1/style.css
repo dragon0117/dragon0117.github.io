@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-image: url(风车.jpg);
+    background-repeat: no-repeat;
+    background-position: center 5px;
+    
+} */
+.bj{
+   position: fixed; 
+   opacity: 0.5;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+.w{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    height: 60px;
+    position: fixed;
+    z-index: 55;
+    background-color: rgba(249, 246, 219, 0.829);
+    
+    margin-left: 160px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+    line-height: 60px;
+}
+li{
+    list-style: none;
+}
+.menu h3{
+    float: left;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.menu ul{
+    float: left;
+    margin-left: 30px;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin-left: 60px;
+    text-decoration: none;
+}
+.content{
+    /* position: 160px 80px; */
+    width: 1200px;
+    display: inline-block;
+    /* background: pink; */
+    /* text-align: center; */
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.content h3{
+    text-align: center;
+}
+.content p{
+    /* margin-top: 80px; */
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 300;
+    text-indent: 2em;
+    display: block;
+}
+.content p img{
+    /* float: left; */
+    display: block;
+}
+/* .page{
+    position: relative;;
+} */
+.end{
+    height: 300px;
+}
